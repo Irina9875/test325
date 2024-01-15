@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10%;
+
+}
+
+header {
+    background-color: #C2EFD4;
+    
+}
+
+
+
+.navbar {
+    display: flex;
+    gap: 45px;
+}
+button { 
+    padding: 10px 0; 
+    border-radius: 3px; 
+    border: 2px solid #224F34; 
+    background-color: #C2EFD4; 
+    width: 142px; 
+    height: 52px; 
+    flex-shrink: 0; 
+ 
+}
+.btn  {
+    padding: 10px 0;
+    border-radius: 3px;
+    border: 2px solid #224F34;
+    background-color: #C2EFD4;
+    width: 142px;
+    height: 52px;
+    flex-shrink: 0;
+
+}
+
+/* .svg {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.svg2 {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+} */
+
+
+nav a,
+button {
+    font-family: 'Poppins', sans-serif;
+    color: #224F34;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    color: #224F34;
+    padding-bottom: 60px;
+    
+}
+
+.banner h1 {
+    color: #224F34;
+    font-family: Rufina;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 50px;
+    
+}
+
+.banner p {
+    color: #267D49;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 220%;
+    padding-left: 50px;
+}
+
+.qwe {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #224F34;
+    box-shadow: 6px 33px 59px 0px rgba(0, 0, 0, 0.30);
+    margin: 50px;
+   
+}
+
+
+.best h2{
+color: #224F34;
+font-family: Roboto Slab;
+text-align: center;
+font-size: 64px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 110px;
+}
+.best p{
+
+        color: #224F34; 
+        font-family: Poppins; 
+        font-size: 22px; 
+        font-style: normal; 
+        font-weight: 500; 
+        line-height: normal; 
+        text-align: center; 
+        padding-top: 40px; 
+        padding-bottom: 80px; 
+     
+    
+}
+.container {
+   
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  .container img{
+    width: 330px; 
+    height: 466px; 
+    padding: 10px;
+  }
+  .container p{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 22px;
+  }
+  .container h6{
+    color: #454545;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+  }
+  .sall{
+
+    padding: 10px 0;
+    border-radius: 3px;
+    border: 2px solid #224F34;
+    background-color: #C2EFD4;
+    width: 142px;
+    height: 52px;
+    flex-shrink: 0;
+    position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+margin-top: 20px;
+    
+   
+  }
+  .card-image { 
+    display: flex; 
+    justify-content: center; 
+} 
+ 
+.card { 
+    display: flex; 
+    justify-content: center; 
+} 
+ 
+.card-image p { 
+    display: flex; 
+    justify-content: center; 
+    color: #373737; 
+    text-align: center; 
+    font-family: Poppins; 
+    font-size: 22px; 
+    font-style: normal; 
+    font-weight: 600; 
+    line-height: normal; 
+ 
+} 
+ 
+.card-img-2 img { 
+    width: 318px; 
+    height: 378px; 
+ 
+} 
+ 
+ 
+ 
+.card-image-2 { 
+    display: flex; 
+    justify-content: center; 
+} 
+ 
+.card-2 { 
+    display: flex; 
+    justify-content: center; 
+} 
+ 
+.card-image-2 p { 
+    display: flex; 
+    justify-content: center; 
+    color: #373737; 
+    text-align: center; 
+    font-family: Poppins; 
+    font-size: 22px; 
+    font-style: normal; 
+    font-weight: 600; 
+    line-height: normal; 
+    padding-bottom: 15px; 
+ 
+} 
+ 
+.card-img-2 img { 
+    width: 318px; 
+    height: 378px; 
+ 
+}
+#rectangle { 
+    border-radius: 3px; 
+    background: #C2EFD4; 
+    width: 1377px; 
+    height: 596px; 
+    flex-shrink: 0; 
+    display: flex; 
+    justify-content: center; 
+} 
+ 
+.qad { 
+    display: flex; 
+    justify-content: center; 
+} 
+ 
+.qad h1 { 
+    color: #224F34; 
+    font-family: 'Roboto Slab', serif; 
+    font-size: 40px; 
+    font-style: normal; 
+    font-weight: 700; 
+    line-height: normal; 
+     
+} 
+.offer{ 
+    display: flex; 
+    flex-direction: row; 
+    background-color: #C2EFD4; 
+    justify-content: space-evenly; 
+    align-items: center; 
+} 
+ 
+.mtb{ 
+    margin-bottom: 80px; 
+    margin-top: 80px; 
+} 
+.time{ 
+    display: flex; 
+    flex-direction: row; 
+    gap: 20px; 
+} 
+ 
+.time-card{ 
+    height: 100px; 
+    width: 100px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: white; 
+} 
+ 
+.time-card h2{ 
+    font-size: 32px; 
+} 
+.right{ 
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+    width: 42%; 
+} 
+.offer-text{ 
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+} 
+ 
+.offer-text p{ 
+    width: 100%; 
+    text-wrap: wrap; 
+}
+.sells h2{
+    font-family: Roboto Slab;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 40px;
+}
+
+.sells .poppins{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.sells-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sellsitems .sells-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    gap: 5px;
+}
+
+.sells-text div{
+    display: flex;
+    gap: 20px;
+}
+
+.SeeAll{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 40px;
+    background: none;
+    border: 2px solid #224F34;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.outproduct-flex{
+    display: grid;
+    grid-template: repeat(2, 1fr)/ repeat(4,1fr);
+}
+
+.productlist{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.outProducts h2{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.HzChtoEto h2, .HzChtoEto p{
+    text-align: center;
+    margin: 80px 0;
+}
+
+.hzchto-flex{
+    display: flex;
+    gap: 20px;
+}
+
+.hzchto-flex .sellsitems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hzchto-flex .sellsitems .sells-text p{
+    margin: 0 40px;
+    text-align: center;
+}
+
+.offer{
+    display: flex;
+    flex-direction: row;
+    background-color: #C2EFD4;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 42%;
+}
+
+.offer-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.offer-text p{
+    width: 100%;
+    text-wrap: wrap;
+}
+
+.right button{
+    width: 235px;
+    height: 70px;
+    background-color: #224F34;
+    color: white;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.time-card{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.time-card h2{
+    font-size: 32px;
+}
+
+.feedback{
+    margin-top: 180px;
+}
+
+.feedback .h2{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+.fbCarousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.fbitem{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0px 7px 30px 0px #0000000D;
+    padding: 20px;
+    width: 30%;
+}
+
+.fbitem-active{
+    background-color: #C2EFD4;
+}
+
+.arrows{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 120px;
+    padding-bottom: 40px;
+}
+
+.arrows button{
+    padding: 10px;
+    box-shadow: 0px 7px 51px 0px #0000001A;
+    background: none;
+}
+
+.arrows .active{
+    background-color: #C2EFD4;    
+}
+
+.logo{
+    width: 70px;
+    padding-bottom: 20px;
+}
+
+.img_footer img{
+    width: 25px;
+}
+
+.img_footer{
+    display: flex;
+    gap: 30px;
+}
+
+footer{
+    width: 100%;
+    padding: 60px 160px;
+    background-color: #224F34;
+}
+
+.main_footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.footer{
+    display: flex;
+    gap: 130px;
+}
+
+.footer_a{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form{
+    display: flex;
+}
+
+.footer_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer p{
+    font-size: 14px;
+    color: white;
+}
+
+footer a{
+    color: #C2EFD4;
+    font-size: 14px;
+}
+
+.form input{
+    height: 40px;
+    width: 280px;
+    border: 2px solid #A3F3BE;
+    background-color: #224F34;
+    padding: 0 16px;
+}
+
+.form input::placeholder{
+    color: white;
+}
+
+.form button{
+    padding: 0 25px;
+    color: #224F34;
+    background-color: #A3F3BE;
+    border: 3px solid #A3F3BE;
+    font-weight: 600;
+}
+
+.hr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+hr{
+    width: 900px;
+    border: 1px solid #A3F3BE;
+}
+  
